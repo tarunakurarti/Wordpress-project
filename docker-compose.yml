@@ -1,0 +1,42 @@
+version: '3'
+volumes:
+  mysql1_data:
+  wp_storage-data:
+services:
+  project:
+    image: mysql:5.7
+    volumes:
+       - mysql_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_USER: tarun
+      MYSQL_PASSWORD: redhat
+      MYSQL_DATABASE: myproject
+  wordpressoss:
+    image: wordpress:5.1.1-php7.3-apache
+    restart: always
+    depends_on:
+      - project
+    ports:
+      - 8080:80
+    environment:
+       WORDPRESS_DB_HOST: project
+       WORDPRESS_DB_USER: tarun             
+       WORDPRESS_DB_PASSWORD: redhat
+       WORDPRESS_DB_NAME: myproject
+    volumes:
+      - wp_storage-data:/var/www/html
+    
+    phpmyadmin:
+      depends_on:
+        - project
+      image: phpmyadmin/phpmyadmin
+      restart: always
+      environment:
+        PMA_HOST: project
+        MYSQL_USER: tarun
+        MYSQL_PASSWORD: redhat
+        MYSQL_DATABASE: myproject
+      ports:
+        - 8081:80
