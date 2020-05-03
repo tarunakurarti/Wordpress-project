@@ -44,7 +44,8 @@ you will get inside the directory u have created
 
 output of the above command will be like this
 
-@root86676:filename:# like this but the way i shown will not be similar but the the filename u created will be on the side 
+> @root86676:filename:# 
+- like this but the way i shown will not be similar but the the filename u created will be on the side 
 
 # step:6
 
@@ -76,3 +77,7 @@ then wordpress setup will come complete the setup and have fun
 
 :+1:***that's it folks have fun creating the project enjoy 
 if any problem regarding it contact me @kartheek1968@gmail.com***:shipit:
+
+made by 
+- TARUN
+- KARTHEEK1968@GMAIL.COM
