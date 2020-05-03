@@ -3,24 +3,24 @@ step:1
 
 first make a director where u want to start your project code 
 
-code:**mkdir filename**
+***code:*** **mkdir filename**
 
 step:2
 
 then open new terminal then install both wordpress and mysql in the linix 
 
 
-command:
+***command:***
 **yum install mysql:5.7 -y**
 
-command1:
+***command1:***
 **yum install wordpress:5.1.1-php7.3-apache -y**
 
 step3:
 
 downlaod docker compose and activate it
 
-command:
+****command:***
 **sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose**
 
 ***---the above command will download the dowload compose ---***
@@ -28,14 +28,14 @@ command:
 
 ***---after that use the following command to use it---*** 
 
-command:
+***command:***
 **sudo chmod +x /usr/local/bin/docker-compose**
 
 step:3
 
 go inside the directory using cd
 
-*command:* **cd /filename**
+***command:*** **cd /filename**
 
 step:4
 
@@ -49,7 +49,7 @@ step:5
 
 create a yaml file
 
-*command:* **docker-compose.yml**
+***command:*** **docker-compose.yml**
 
 it open terminal as input window 
 u wil get a black screen then click "I" on the keyboard to go insert mode 
@@ -60,7 +60,7 @@ step:6
 
 run the command
 
-command:**docker-commpose up**
+***command:*** **docker-commpose up**
 
 it runs the yaml file which is inside the directory then first know the ipaddress of ur system and use port number after it 
 
