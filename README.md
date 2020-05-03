@@ -20,6 +20,7 @@ step3:
 
 downlaod docker compose and activate it
 
+command:
 **sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose**
 
 ***---the above command will download the dowload compose ---***
@@ -27,15 +28,14 @@ downlaod docker compose and activate it
 
 ***---after that use the following command to use it---*** 
 
+command:
 **sudo chmod +x /usr/local/bin/docker-compose**
 
 step:3
 
 go inside the directory using cd
 
-command:
-
-**cd /filename**
+*command:* **cd /filename**
 
 step:4
 
@@ -49,9 +49,7 @@ step:5
 
 create a yaml file
 
-command:
-
-**docker-compose.yml**
+*command:* **docker-compose.yml**
 
 it open terminal as input window 
 u wil get a black screen then click "I" on the keyboard to go insert mode 
@@ -62,9 +60,7 @@ step:6
 
 run the command
 
-command:
-
-**docker-commpose up**
+command:**docker-commpose up**
 
 it runs the yaml file which is inside the directory then first know the ipaddress of ur system and use port number after it 
 
