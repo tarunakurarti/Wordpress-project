@@ -4,7 +4,7 @@
 
 first make a director where u want to start your project code 
 
-***code:*** **mkdir filename**
+***command:*** **mkdir filename**
 
 # step:2
 
