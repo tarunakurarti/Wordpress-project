@@ -6,7 +6,7 @@ first make a director where u want to start your project code
 
 ***code:*** **mkdir filename**
 
-## step:2
+# step:2
 
 then open new terminal then install both wordpress and mysql in the linix 
 
@@ -17,7 +17,7 @@ then open new terminal then install both wordpress and mysql in the linix
 ***command1:***
 **yum install wordpress:5.1.1-php7.3-apache -y**
 
-### step3:
+# step3:
 
 downlaod docker compose and activate it
 
@@ -32,13 +32,13 @@ downlaod docker compose and activate it
 ***command:***
 **sudo chmod +x /usr/local/bin/docker-compose**
 
-#### step:4
+# step:4
 
 go inside the directory using cd
 
 ***command:*** **cd /filename**
 
-##### step:5
+# step:5
 
 you will get inside the directory u have created
 
@@ -46,7 +46,7 @@ output of the above command will be like this
 
 @root86676:filename:# like this but the way i shown will not be similar but the the filename u created will be on the side 
 
-###### step:6
+# step:6
 
 create a yaml file
 
@@ -57,7 +57,7 @@ u wil get a black screen then click "I" on the keyboard to go insert mode
 copy my code to the terminal and then click ese on the keyboard and then press :wq
 on the keyword it will exit the input command terminal
 
-###### step:7
+# step:7
 
 run the command
 
@@ -70,7 +70,7 @@ it runs the yaml file which is inside the directory then first know the ipaddres
 
 like the above example the ipaddress will be 
 
-###### step:8
+# step:8
 go to os and open the browser and type the ip address of urs as above then ur username and password as mentioned in code
 then wordpress setup will come complete the setup and have fun
 
