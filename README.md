@@ -82,5 +82,6 @@ made by
 - TARUN
 - KARTHEEK1968@GMAIL.COM
 
-![IMAGE OF BLACK]
-(https://octodex.github.com/privateinvestocat/)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+![IMAGE OF BLACK](https://octodex.github.com/privateinvestocat/)
