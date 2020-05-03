@@ -20,7 +20,7 @@ step3:
 
 downlaod docker compose and activate it
 
-****command:***
+***command:***
 **sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose**
 
 ***---the above command will download the dowload compose ---***
