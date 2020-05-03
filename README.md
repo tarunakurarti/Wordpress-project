@@ -74,5 +74,5 @@ like the above example the ipaddress will be
 go to os and open the browser and type the ip address of urs as above then ur username and password as mentioned in code
 then wordpress setup will come complete the setup and have fun
 
-***that's it folks have fun creating the project enjoy 
-if any problem regarding it contact me @kartheek1968@gmail.com***
+:+1:***that's it folks have fun creating the project enjoy 
+if any problem regarding it contact me @kartheek1968@gmail.com***:shipit:
