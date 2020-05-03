@@ -84,4 +84,3 @@ made by
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-![IMAGE OF BLACK](https://octodex.github.com/privateinvestocat/)
